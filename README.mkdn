@@ -1,15 +1,5 @@
-Peter Alfonso
-===========
-
-Visit http://peteralfonso.com 
-
-Follow http://twitter.com/peteralfonso 
-
-Like http://facebook.com/peteralfonsojr
-
-Link http://linkedin.com/in/peteralfonso
-
-Circle http://profiles.google.com/peteralfonsojr
+GalaxyAOSP
+============
 
 
 Getting Started
@@ -19,10 +9,13 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/peteralfonso/platform_manifest.git -b ics
+    repo init -u git://github.com/GalaxyAOSP/android_manifest.git -b ics
 
 Then to sync up:
 
-    repo sync
+    repo sync -j16
 
+Credits
+-------
+HUGE thanks to Peter Alfonso for this very clean vendor. Without him this vendor would be a mess! Please thank him too :)
 
