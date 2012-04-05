@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/
+    $(LOCAL_DIR)/galaxys2.mk

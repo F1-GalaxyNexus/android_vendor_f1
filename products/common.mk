@@ -18,11 +18,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
-    vendor/galaxyaosp/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/galaxyaosp/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/galaxyaosp/proprietary/common/xbin/su:system/xbin/su
 
-# Enable SIP+VoIP on all targets
+# Enable SIP+VoIP & Huge APN List on all targets
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
+    vendor/galaxyaosp/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
