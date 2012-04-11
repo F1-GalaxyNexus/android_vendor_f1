@@ -3,6 +3,9 @@ PRODUCT_NAME := galaxyaosp
 PRODUCT_BRAND := galaxyaosp
 PRODUCT_DEVICE := generic
 
+# Inherit all video files.
+$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/galaxyaosp/overlay/common
 
