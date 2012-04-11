@@ -4,6 +4,9 @@ $(call inherit-product, device/samsung/galaxys2/full_galaxys2.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/galaxyaosp/products/common.mk)
 
+# Inherit GSM product files.
+$(call inherit-product, vendor/galaxyaosp/products/gsm.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := SGS2
 
