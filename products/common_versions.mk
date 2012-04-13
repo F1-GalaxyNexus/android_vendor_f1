@@ -3,6 +3,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76D BUILD_ID=IMM76D BUILD_VE
 
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=F1 GalaxyAOSP-$(shell date +"%m-%d-%y") 
+    ro.f1version=F1-GalaxyAOSP-$(shell date +"%m-%d-%y") 
   #  ro.rommanager.developerid=Faryaab
 
