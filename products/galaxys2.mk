@@ -11,7 +11,7 @@ $(call inherit-product, vendor/galaxyaosp/products/gsm.mk)
 PRODUCT_RELEASE_NAME := SGS2
 
 # Setup device specific product configuration.
-PRODUCT_NAME := galaxyaosp_galaxys2
+PRODUCT_NAME := GalaxyS2
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := galaxys2
 PRODUCT_MODEL := GT-I9100

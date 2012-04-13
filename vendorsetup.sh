@@ -1,2 +1,2 @@
-add_lunch_combo galaxyaosp_galaxys2-userdebug
+add_lunch_combo GalaxyS2-userdebug
 
