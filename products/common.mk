@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := GalaxyAOSP
-PRODUCT_BRAND := GalaxyAOSP
+PRODUCT_NAME := galaxyaosp
+PRODUCT_BRAND := galaxyaosp
 PRODUCT_DEVICE := generic
 
 # Inherit all video files.

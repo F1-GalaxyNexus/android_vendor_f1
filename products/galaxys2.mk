@@ -13,7 +13,7 @@ PRODUCT_RELEASE_NAME := SGS2
 # Setup device specific product configuration.
 PRODUCT_NAME := GalaxyS2
 PRODUCT_BRAND := samsung
-PRODUCT_DEVICE := GT-I9100
+PRODUCT_DEVICE := galaxys2
 PRODUCT_MODEL := GT-I9100
 PRODUCT_MANUFACTURER := samsung
 
