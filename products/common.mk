@@ -4,7 +4,7 @@ PRODUCT_BRAND := GalaxyAOSP
 PRODUCT_DEVICE := generic
 
 # Inherit all video files.
-$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+#$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/galaxyaosp/overlay/common
@@ -21,7 +21,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
+    vendor/galaxyaosp/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
+    vendor/galaxyaosp/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/galaxyaosp/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/galaxyaosp/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/galaxyaosp/proprietary/common/xbin/su:system/xbin/su
 
 # Enable SIP+VoIP on all targets
