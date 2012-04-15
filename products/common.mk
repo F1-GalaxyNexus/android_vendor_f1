@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/galaxyaosp/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/galaxyaosp/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/galaxyaosp/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
+    vendor/galaxyaosp/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/galaxyaosp/proprietary/common/xbin/su:system/xbin/su
 
 # Enable SIP+VoIP on all targets
