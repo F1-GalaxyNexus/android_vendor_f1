@@ -1,13 +1,13 @@
 # Generic product
-PRODUCT_NAME := galaxyaosp
-PRODUCT_BRAND := galaxyaosp
+PRODUCT_NAME := F1-GalaxyNexus
+PRODUCT_BRAND := F1-GalaxyNexus
 PRODUCT_DEVICE := generic
 
 # Inherit all video files.
 #$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/galaxyaosp/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/f1/overlay/common
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -21,12 +21,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
-    vendor/galaxyaosp/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
-    vendor/galaxyaosp/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/galaxyaosp/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/galaxyaosp/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/galaxyaosp/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
-    vendor/galaxyaosp/proprietary/common/xbin/su:system/xbin/su
+    vendor/f1/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
+    vendor/f1/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
+    vendor/f1/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/f1/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/f1/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
+    vendor/f1/proprietary/common/xbin/su:system/xbin/su
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \

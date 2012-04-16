@@ -1,4 +1,4 @@
-F1 GalaxyAOSP
+F1 GalaxyNexus
 =============
 =============
 
@@ -9,7 +9,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/GalaxyAOSP/android_manifest.git -b ics
+    repo init -u git://github.com/F1-GalaxyNexus/android_manifest.git -b ics
 
 Then to sync up:
 
