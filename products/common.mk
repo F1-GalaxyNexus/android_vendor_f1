@@ -3,8 +3,8 @@ PRODUCT_NAME := F1-GalaxyNexus
 PRODUCT_BRAND := F1-GalaxyNexus
 PRODUCT_DEVICE := generic
 
-# Inherit all video files.
-#$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+# Inherit Google Apps files.
+$(call inherit-product, vendor/gapps/gapps.mk)
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/f1/overlay/common
