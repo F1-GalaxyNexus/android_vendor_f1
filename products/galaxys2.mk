@@ -24,7 +24,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9100 BUILD_FINGERPRINT=samsung/
 
 # Copy galaxys2 specific prebuilt files
 PRODUCT_COPY_FILES += \
-    vendor/f1/proprietary/galaxys2/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/f1/proprietary/galaxys2/etc/init.d/56F1Tweaks:system/etc/init.d/56F1Tweaks 
-
-
+    vendor/f1/proprietary/galaxys2/media/bootanimation.zip:system/media/bootanimation.zip 

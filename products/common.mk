@@ -23,6 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/f1/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/f1/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/f1/proprietary/common/etc/init.d/56F1Tweaks:system/etc/init.d/56F1Tweaks \
     vendor/f1/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/f1/proprietary/common/xbin/su:system/xbin/su
 
