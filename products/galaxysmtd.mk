@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for GalaxyS
-$(call inherit-product, device/samsung/galaxys2/full_galaxysmtd.mk)
+$(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/f1/products/common.mk)
